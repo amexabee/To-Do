@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f2f5;
+}
+
+section {
+  margin-top: 30vh;
+  background-color: #fff;
+  width: 40%;
+  box-shadow: 0 0 10px gray;
+  overflow: visible;
+}
+
+h3 {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #f1f2f5;
+  margin: 0;
+}
+
+#add {
+  margin-top: 0;
+  background-color: #fff;
+  width: calc(100% - 30px);
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #f1f2f5;
+  outline: 0px solid transparent;
+}
+
+#add:placeholder-shown {
+  font-style: italic;
+}
+
+#check {
+  float: left;
+  margin-right: 10px;
+}
+
+.fa-ellipsis-v {
+  color: #d6d6d6;
+  float: right;
+}
+
+.fa-trash-o {
+  float: right;
+}
+
+.fa-trash-o:hover {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid #f1f2f5;
+  outline: 0px solid transparent;
+}
+
+#txt {
+  padding: 15px;
+  outline: 0px solid transparent;
+}
+
+button {
+  background-color: #f1f2f5;
+  padding: 15px;
+  width: 100%;
+  border: none;
+}
+
+#clear:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 80%;
+  }
+}
