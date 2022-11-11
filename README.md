@@ -27,7 +27,7 @@ Feel free to get a local copy up and running by following these simple example s
 
 - GitHub: [@amexabee](https://github.com/amexabee)
 - Twitter: [@i_amanuel](https://twitter.com/i_amanuel)
-- LinkedIn: [Amanuel Galema](https://www.linkedin.com/in/amanuel-galema/)
+- LinkedIn: [Amanuel Galema](https://www.linkedin.com/in/amanuel-galema)
 
 
 ## 🤝 Contributing
